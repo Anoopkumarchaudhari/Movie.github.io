@@ -1,0 +1,105 @@
+#Trailer{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#FullMovie{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#Footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+div{
+    margin: 15px;
+}
+#FullMovie div{
+    margin: 15px;
+}
+
+body{
+    background-image:url('Screenshot 2024-03-23 162010.png') ;
+    background-color: rgb(234, 241, 243);
+}
+h1{
+   
+    color: aqua;
+    margin-left: 10px;
+}
+
+h1::first-letter{
+    margin-left: 10px;
+    color:rgb(221, 14, 14);
+    
+}
+h3{
+    width:200px;
+    color: rgb(68, 104, 249);
+}
+img{
+   border-radius: 10px;
+   box-shadow: 5px 5px 20px rgb(65, 76, 82);
+    width: 200px;
+    height: 270px;
+}
+img:hover{
+height: 280px;
+width: 210px;
+    box-shadow: 5px 5px 10px rgb(143, 227, 232);
+    transition: 0.5s;
+}
+#Trailer button{
+    background-color:rgb(139, 163, 223) ;
+    margin:10px 0px 0px 20px;
+    border-radius: 20px;
+    color:aqua
+}
+#FullMovie button{
+    background-color:rgb(139, 163, 223) ;
+    margin:5px 0px 0px 5px;
+    border-radius: 10px;
+    color:aqua;
+ 
+  
+}
+
+ #Trailer button:hover{
+    background-color:aqua;
+    color: blue;
+}
+ #FullMovie button:hover{
+    background-color:aqua;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 12, 240);;
+}
+a:hover{
+    color: rgb(26, 8, 43);
+}
+
+#Footer{
+    
+}
+#Footer img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 20px rgb(241, 20, 204);
+    border-radius: 100px;
+}
+#Footer img:hover{
+   width: 103px;
+   height: 103px;
+   box-shadow: 3px 3px 10px rgb(32, 248, 28);
+   transition: 0.5s;
+}
